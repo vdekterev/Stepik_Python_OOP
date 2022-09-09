@@ -57,4 +57,4 @@ class MotherBoard:
         return info
 
 
-mb = MotherBoard('MSI', CPU('Ryzen 5 1600', 3.5), Memory('Samsung', volume=8000), Memory('Samsnug', volume=8000))
+mb = MotherBoard('MSI', CPU('Ryzen 5 1600', 3.5), Memory('Samsung', volume=16000), Memory('Samsnug', volume=16000))
