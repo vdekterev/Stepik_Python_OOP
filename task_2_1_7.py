@@ -12,9 +12,3 @@ class Line:
 
     def draw(self):
         print(*[self.__x1, self.__y1, self.__x2, self.__y2])
-
-
-
-l = Line(1, 2, 3, 4)
-print(l.get_coords())
-l.draw()
