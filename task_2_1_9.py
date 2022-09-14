@@ -10,7 +10,6 @@ class LinkedList:
         while n.get_next() is not None:
             n = self.tail
 
-
     def remove_obj(self):
         self.tail = self.tail.__prev
 
